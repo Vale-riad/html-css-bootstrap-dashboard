@@ -1,0 +1,129 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+/* ----------
+    header
+    --------- */
+header{
+    height:70px;
+    background-color:#f8f9fa;
+}
+.row-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+.logo-mobile{
+    
+    max-height: 60px;
+}
+.search-bar{
+    background-color:#e5e5e5;
+    flex-grow:1;
+    border-radius: .625rem;
+}
+.search-bar-input{
+    background-color: transparent;
+    border: none;
+    border-radius: .625rem;
+    padding:10px;
+    width:90%;
+    
+}
+
+.sm-dropdown-icon{
+    background-color: transparent;
+    color: #ff8f00;
+}
+.ms-button{
+    background-color: transparent;
+    border:none
+}
+.container-icon-right{
+    width: 20%;
+    align-items:center
+}
+.container-icon-right i{
+    margin-left: 1.875rem;
+}
+/* ----------
+    header
+    --------- */
+.page-container{
+    height: calc(100vh - 70px);
+    display: flex;
+}
+aside{
+    width:auto;
+    background-color:#082339 ;
+    background-image: url(../img/sidebar-bg.png);
+    flex-shrink: 0;
+}
+aside li{
+    list-style: none;
+}
+aside a{
+    text-decoration: none;
+    color:#f8f9fa;
+}
+.ms-aside-list i{
+    margin:0 5px;
+}
+.ms-admin i{
+    margin:0 5px;
+}
+ aside .ms-admin{
+    margin-top: auto;
+}
+main{
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.ms-container{
+    background-color: #1c72e8;
+    color: white;
+}
+.ms-card-title {
+    background-color: #f7f7f7;
+    padding: 15px 5px;
+    border-radius: 8px;
+}
+.plus a{
+    color: #1c72e8;
+    background-color: #f7f7f7;
+    height: 54px;
+    border-radius: 8px;
+    border-color: #1c72e8;
+}
+.ms-img-table {
+    width: 30px;
+}
+
+.badge{
+    border-radius: 5px;
+    padding: 5px;
+}
+td .text-badge{
+    color: #e5e5e5;
+}
+.btn-plus{
+    border-color: #1c72e8;
+    padding:0;
+    color: #1c72e8;
+    border-radius: 5px;
+    height:50px;
+    width:50px;
+    font-size: 30px;
+    
+}
+.btn-table{
+    color: gray;
+    border-color: gray;
+    margin: 0 5px;
+}
+.accordion-button {
+    border: none;
+    background-color: transparent;
+}
